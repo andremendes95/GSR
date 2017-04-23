@@ -16,3 +16,4 @@ serversecundario.contatudo.gsr.		IN 	A	10.0.0.131
 
 bomcliente.gsr.				IN 	NS	serverbomcliente.bomcliente.gsr.
 serverbomcliente.bomcliente.gsr.	IN 	A	10.0.0.6
+
