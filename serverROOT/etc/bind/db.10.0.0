@@ -1,0 +1,18 @@
+; reverse lookup database 
+$TTL    1
+@               IN      SOA     22.0.0.10.in-addr.arpa.    nobody.nowhere. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl 
+                        )
+@                            IN      NS      22.0.0.10.in-addr.arpa.
+22.0.0.10.in-addr.arpa.      IN      A       10.0.0.22
+22         PTR        .
+130        PTR        serverprimario.contatudo.gsr.
+131        PTR        serversecundario.contatudo.gsr.
+6          PTR        serverbomcliente.bomcliente.gsr.
+2          PTR        pcbomcliente.bomcliente.gsr.
+
+

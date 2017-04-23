@@ -1,0 +1,16 @@
+$TTL    60000
+@               IN      SOA     serverprimario.contatudo.gsr.    root.serverprimario.contatudo.gsr. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               	IN      NS      serverprimario.contatudo.gsr.
+serverprimario        	IN      A       10.0.0.130
+
+www			IN	A	10.0.0.131
+clientes		IN	A	10.0.0.131
+intranet		IN	A	10.0.0.131
+
+

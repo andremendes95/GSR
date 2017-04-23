@@ -1,0 +1,14 @@
+$TTL    60000
+@               IN      SOA     serverbomcliente.bomcliente.gsr.    root.serverbomcliente.bomcliente.gsr. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               	IN      NS      serverbomcliente.bomcliente.gsr.
+serverbomcliente        IN      A       10.0.0.6
+pcbomcliente		IN	A	10.0.0.2
+
+www			IN	A	10.0.0.6
+

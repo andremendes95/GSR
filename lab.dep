@@ -1,0 +1,14 @@
+pcdiretor:switch3 routersede 
+pcontabilista:switch3 routersede  
+pcrecursoshumanos:switch3 routersede   
+pcontacontabilistalisboa:switchlisboa routerescritoriolisboa
+pcgeralisboa:switchlisboa routerescritoriolisboa
+pcontacontabilistaporto:switchporto routerescritorioporto 
+pcgeralporto:switchporto routerescritorioporto
+pcvisitante1lisboa:switchlisboa routerescritoriolisboa 
+pcvisitante2lisboa:switchlisboa routerescritoriolisboa 
+pcvisitante1porto:switchporto routerescritorioporto
+pcvisitante2porto:switchporto routerescritorioporto
+pcbomcliente:routerbomcliente
+pcNETKIT:routerISP 
+
