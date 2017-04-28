@@ -7,13 +7,8 @@ $TTL   60000
                         0 ; negative cache ttl
                         )
 
-@               			IN      NS      ROOT-SERVER.
-ROOT-SERVER.				IN	A	10.0.0.22
+@               IN      NS      ROOT-SERVER.
+ROOT-SERVER.	IN	A	10.0.0.22
 
-contatudo.gsr.				IN 	NS	serverprimario.contatudo.gsr.
-serverprimario.contatudo.gsr.		IN 	A	10.0.0.130
-serversecundario.contatudo.gsr.		IN 	A	10.0.0.131
-
-bomcliente.gsr.				IN 	NS	serverbomcliente.bomcliente.gsr.
-serverbomcliente.bomcliente.gsr.	IN 	A	10.0.0.6
-
+gsr.		IN 	NS	serverROOT.gsr.
+serverROOT.gsr.	IN 	A	10.0.0.22

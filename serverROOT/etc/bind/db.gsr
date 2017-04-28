@@ -1,0 +1,21 @@
+$TTL   60000
+@               IN      SOA     serverROOT.gsr.    root.serverROOT.gsr. (
+                        2006031201 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@                   IN      NS      serverROOT.gsr.
+serverROOT          IN      A       10.0.0.22
+
+contatudo                      IN      NS      serverprimario.contatudo.gsr.
+serverprimario.contatudo       IN      A       10.0.0.130
+
+contatudo                      IN      NS      serversecundario.contatudo.gsr.
+serversecundario.contatudo     IN      A       10.0.0.131
+
+bomcliente                     IN      NS      serverbomcliente.bomcliente.gsr.
+serverbomcliente.bomcliente    IN      A       10.0.0.6
+
+

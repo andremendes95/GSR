@@ -9,6 +9,9 @@ $TTL    60000
 @               	IN      NS      serverprimario.contatudo.gsr.
 serverprimario        	IN      A       10.0.0.130
 
+@               	IN      NS      serversecundario.contatudo.gsr.
+serversecundario       	IN      A       10.0.0.131
+
 www			IN	A	10.0.0.131
 clientes		IN	A	10.0.0.131
 intranet		IN	A	10.0.0.131
