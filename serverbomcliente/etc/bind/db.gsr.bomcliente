@@ -8,6 +8,7 @@ $TTL    60000
                         )
 @               	IN      NS      serverbomcliente.bomcliente.gsr.
 serverbomcliente        IN      A       10.0.0.6
+
 pcbomcliente		IN	A	10.0.0.2
 
 www			IN	A	10.0.0.6
