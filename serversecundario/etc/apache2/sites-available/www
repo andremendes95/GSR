@@ -1,0 +1,5 @@
+<VirtualHost *:80>
+DocumentRoot /var/www/www
+ServerName www.contatudo.gsr
+ServerAlias contatudo.gsr
+</VirtualHost>
