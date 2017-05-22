@@ -3,10 +3,11 @@ ip link set dev eth0 up
 ip route add default via 10.0.0.129
 /etc/init.d/apache2 start
 /etc/init.d/bind start
+a2enmod ssl
 a2ensite www
 a2ensite clientes
 a2ensite intranet
-/etc/init.d/apache2 reload
+/etc/init.d/apache2 restart
 
 
 

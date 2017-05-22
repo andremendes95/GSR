@@ -1,5 +1,16 @@
 <VirtualHost *:80>
 DocumentRoot /var/www/intranet
-ServerName intranet.contatudo.gsr
-ServerAlias contatudo.gsr
+ServerName contatudo.gsr  
+ServerAlias intranet.contatudo.gsr
+<Directory /var/www/intranet>
+ 	Order Deny,Allow
+  	Deny from all
+  	Allow from 10.0.0.144/28
+	Allow from 10.0.2.64/28
+	Allow from 192.168.0.0/29
+	Allow from 10.0.0.128/28
+	Allow from 192.168.0.8/29
+	Allow from 192.168.0.16/29
+	Allow from 10.0.2.80/28
+</Directory>
 </VirtualHost>

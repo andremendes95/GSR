@@ -7,13 +7,7 @@ $TTL    60000
                         0 ; negative cache ttl
                         )
 @               	IN      NS      serverprimario.contatudo.gsr.
-@			IN	MX 5	mail.contatudo.gsr.
-
 serverprimario        	IN      A       10.0.0.130
-
-mail			IN	A	10.0.0.130
-imap			IN	A	10.0.0.130
-pop			IN	A	10.0.0.130
 
 @               	IN      NS      serversecundario.contatudo.gsr.
 serversecundario       	IN      A       10.0.0.131

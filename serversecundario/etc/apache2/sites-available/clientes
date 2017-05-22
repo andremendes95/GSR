@@ -1,5 +1,15 @@
 <VirtualHost *:80>
+ServerName contatudo.gsr
+ServerAlias clientes.contatudo.gsr
+Redirect / https://clientes.contatudo.gsr/
 DocumentRoot /var/www/clientes
-ServerName clientes.contatudo.gsr
-ServerAlias contatudo.gsr
+</VirtualHost>
+
+<VirtualHost *:443>
+ServerName contatudo.gsr
+ServerAlias clientes.contatudo.gsr
+DocumentRoot /var/www/clientes
+SSLEngine on
+SSLCertificateFile /hostlab/serversecundario/etc/apache2/ssl/apache.crt
+SSLCertificateKeyFile /hostlab/serversecundario/etc/apache2/ssl/apache.key
 </VirtualHost>
