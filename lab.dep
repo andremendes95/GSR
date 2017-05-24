@@ -11,4 +11,5 @@ pcvisitante1porto:switchporto routerescritorioporto
 pcvisitante2porto:switchporto routerescritorioporto
 pcbomcliente:routerbomcliente
 pcNETKIT:routerISP 
+administrador:serversecundario
 

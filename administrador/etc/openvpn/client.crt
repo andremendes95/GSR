@@ -1,0 +1,72 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=PT, ST=Lisbon, L=Oeiras, O=IST, OU=GSR, CN=serversecundario/emailAddress=admin@contatudo.gsr
+        Validity
+            Not Before: May 23 15:17:39 2017 GMT
+            Not After : May 21 15:17:39 2027 GMT
+        Subject: C=PT, ST=Lisbon, L=Oeiras, O=IST, OU=GSR, CN=administrador/emailAddress=admin1@contatudo.gsr
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (1024 bit)
+                Modulus (1024 bit):
+                    00:ae:23:b8:eb:56:7b:6a:29:fe:f0:05:43:6b:83:
+                    e3:b8:a8:98:50:11:33:93:59:e0:7a:ad:84:c5:a7:
+                    2e:7e:5f:8c:e7:b2:9c:97:b9:67:61:70:a5:40:96:
+                    bd:19:ea:92:fb:1c:09:24:b4:f7:44:4b:7a:45:36:
+                    5d:30:bd:4e:81:bc:89:b1:5c:19:e0:a2:6f:20:eb:
+                    e8:0d:a6:ba:d4:3e:bd:ee:f0:5d:82:bb:24:53:fd:
+                    3e:54:05:cd:b0:06:f3:8f:68:2d:a6:23:23:a3:ac:
+                    21:a7:00:3d:fe:a8:e2:59:e8:67:43:33:a1:b6:f0:
+                    6a:3f:2b:d9:64:65:35:2c:c5
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                6B:EC:85:0D:76:B8:99:8A:4A:AE:92:B7:7C:2B:08:83:B4:1C:FD:73
+            X509v3 Authority Key Identifier: 
+                keyid:EB:95:AB:1F:8B:15:AE:9E:78:73:46:F3:17:C9:98:77:0D:28:69:91
+                DirName:/C=PT/ST=Lisbon/L=Oeiras/O=IST/OU=GSR/CN=serversecundario/emailAddress=admin@contatudo.gsr
+                serial:B5:34:D2:07:13:13:A2:74
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+        45:8b:c8:b7:dc:95:3f:e0:75:d0:a8:0b:f3:48:67:9f:ea:11:
+        88:c1:6d:42:30:f2:7e:ee:9e:a9:49:d2:4a:09:9f:fd:a4:fb:
+        27:ce:49:6d:c1:c2:46:00:b9:47:3c:4e:2a:94:80:b8:77:37:
+        4b:24:eb:a4:a1:1f:6e:d3:fa:85:13:51:ec:f2:98:26:92:0b:
+        46:c6:9f:ba:ba:92:19:b4:7d:4a:a1:22:3d:cd:5c:17:4d:f8:
+        7c:36:25:be:aa:c0:67:d6:f6:bc:ac:f4:87:8d:f2:c9:37:15:
+        e4:c8:c6:e4:a9:9d:e0:5a:22:81:af:a8:8c:ee:9b:5a:a5:a9:
+        4e:6b
+-----BEGIN CERTIFICATE-----
+MIIDzTCCAzagAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBijELMAkGA1UEBhMCUFQx
+DzANBgNVBAgTBkxpc2JvbjEPMA0GA1UEBxMGT2VpcmFzMQwwCgYDVQQKEwNJU1Qx
+DDAKBgNVBAsTA0dTUjEZMBcGA1UEAxMQc2VydmVyc2VjdW5kYXJpbzEiMCAGCSqG
+SIb3DQEJARYTYWRtaW5AY29udGF0dWRvLmdzcjAeFw0xNzA1MjMxNTE3MzlaFw0y
+NzA1MjExNTE3MzlaMIGIMQswCQYDVQQGEwJQVDEPMA0GA1UECBMGTGlzYm9uMQ8w
+DQYDVQQHEwZPZWlyYXMxDDAKBgNVBAoTA0lTVDEMMAoGA1UECxMDR1NSMRYwFAYD
+VQQDEw1hZG1pbmlzdHJhZG9yMSMwIQYJKoZIhvcNAQkBFhRhZG1pbjFAY29udGF0
+dWRvLmdzcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAriO461Z7ain+8AVD
+a4PjuKiYUBEzk1ngeq2Exacufl+M57Kcl7lnYXClQJa9GeqS+xwJJLT3REt6RTZd
+ML1OgbyJsVwZ4KJvIOvoDaa61D697vBdgrskU/0+VAXNsAbzj2gtpiMjo6whpwA9
+/qjiWehnQzOhtvBqPyvZZGU1LMUCAwEAAaOCAUEwggE9MAkGA1UdEwQCMAAwLQYJ
+YIZIAYb4QgENBCAWHkVhc3ktUlNBIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNV
+HQ4EFgQUa+yFDXa4mYpKrpK3fCsIg7Qc/XMwgb8GA1UdIwSBtzCBtIAU65WrH4sV
+rp54c0bzF8mYdw0oaZGhgZCkgY0wgYoxCzAJBgNVBAYTAlBUMQ8wDQYDVQQIEwZM
+aXNib24xDzANBgNVBAcTBk9laXJhczEMMAoGA1UEChMDSVNUMQwwCgYDVQQLEwNH
+U1IxGTAXBgNVBAMTEHNlcnZlcnNlY3VuZGFyaW8xIjAgBgkqhkiG9w0BCQEWE2Fk
+bWluQGNvbnRhdHVkby5nc3KCCQC1NNIHExOidDATBgNVHSUEDDAKBggrBgEFBQcD
+AjALBgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQEFBQADgYEARYvIt9yVP+B10KgL80hn
+n+oRiMFtQjDyfu6eqUnSSgmf/aT7J85JbcHCRgC5RzxOKpSAuHc3SyTrpKEfbtP6
+hRNR7PKYJpILRsafurqSGbR9SqEiPc1cF034fDYlvqrAZ9b2vKz0h43yyTcV5MjG
+5Kmd4Foiga+ojO6bWqWpTms=
+-----END CERTIFICATE-----
