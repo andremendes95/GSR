@@ -19,9 +19,7 @@ iptables -A FORWARD -s 192.168.0.16/29 -o eth5 -j DROP
 iptables -A FORWARD -d 192.168.0.16/29 -i eth5 -j DROP
 iptables -A FORWARD -d 192.168.0.8/29 -i eth5 -j DROP
 iptables -A FORWARD -d 192.168.0.0/29 -i eth5 -j DROP
-iptables -A FORWARD -d 10.0.0.130 -p icmp -i eth5 -j DROP
-iptables -A FORWARD -d 10.0.0.131 -p icmp -i eth5 -j DROP
-iptables -A FORWARD -d 10.0.0.132 -i eth5 -j DROP
+
 
 
 

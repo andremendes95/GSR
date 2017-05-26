@@ -7,4 +7,3 @@ chmod 600 /root/.ssh/id_rsa
 chmod 600 /root/.ssh/id_rsa.pub
 ssh -f -L 1234:192.168.0.11:22 admin@10.0.0.130 -N
 ssh -f -L 2345:192.168.0.10:22 admin@10.0.0.130 -N
-ssh -f -L 3456:10.0.0.132:22 admin@10.0.0.130 -N

@@ -1,10 +1,15 @@
-ip addr add dev eth0 10.0.0.132/28
+ip addr add dev eth0 10.0.0.131/28
 ip link set dev eth0 up
 ip route add default via 10.0.0.129
 /etc/init.d/apache2 start
-/etc/init.d/squid start
+/etc/init.d/bind start
 /etc/init.d/ssh start
-chmod 750 /home/admin/
+a2enmod ssl
+a2ensite www
+a2ensite clientes
+a2ensite intranet
+/etc/init.d/apache2 restart
+chmod 700 /home/admin/
 chmod 700 /home/admin/.ssh/ 
 chmod 600 /home/admin/.ssh/authorized_keys
 chown admin:admin /home/admin/ /home/admin/.ssh/ /home/admin/.ssh/authorized_keys

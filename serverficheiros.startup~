@@ -2,7 +2,6 @@ ip addr add dev eth0 192.168.0.11/29
 ip link set dev eth0 up
 ip route add default via 192.168.0.9
 /etc/init.d/ssh start
-chmod 750 /home/admin/
 chmod 700 /home/admin/.ssh/ 
 chmod 600 /home/admin/.ssh/authorized_keys
-chown admin:admin /home/admin/ /home/admin/.ssh/ /home/admin/.ssh/authorized_keys
+chown admin:admin /home/admin/.ssh/ /home/admin/.ssh/authorized_keys
