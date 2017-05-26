@@ -3,3 +3,4 @@ DocumentRoot /var/www/www
 ServerName contatudo.gsr
 ServerAlias www.contatudo.gsr
 </VirtualHost>
+
